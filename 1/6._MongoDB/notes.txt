@@ -1,0 +1,50 @@
+MySQL vs NoSQL
+
+MySQL:
+
+data is called "tables"
+
+It has relations (Relational Database)
+OracleDB
+MariaDB
+MySQL
+PostgreSQL
+MsSQL
+CouchDB
+
+What does relation mean?
+
+NoSQL:
+
+Collection = Array of object
+Document = Object
+
+dynamoDB
+MongoDB
+Firebase
+Neo4J
+Realm
+
+Is scaleable
+
+// MongoDB usecases
+
+Do use:
+
+- Not sure about the schema yet
+    - Leads to rapid prototyping
+        - Type of companies: start-ups
+
+Don't use:
+
+- Easy to fuck things up
+
+- Data is consistent og relational
+
+- Data that is crucial and you don't trust the input you get too
+
+- Data that is crucial, you have to be careful
+
+More info:
+    MongoDB you handle realtions, datavalidations etc in the appliocation layer
+    For relational database you can also do it in the application layer but the database is another safety net
